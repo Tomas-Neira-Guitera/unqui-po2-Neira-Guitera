@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-04-18T00:54:35.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Am0rhWEOQqMQhQYplvKg" version="24.2.5" type="device">
+  <diagram name="Página-1" id="sYpxlRqNgjHKg-H8KzGV">
+    <mxGraphModel dx="874" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-1" value="CajaDeSupermercado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-2" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-1">
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-4" value="+ cajaDeSupermercado(List&amp;lt;Producto&amp;gt; lista)&lt;div&gt;+ montoTotalDeLosProductos(): double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-1">
+          <mxGeometry y="60" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-9" value="productos&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpr4Wdd4cPPBH_sCAn0Q-2" target="rpr4Wdd4cPPBH_sCAn0Q-12">
+          <mxGeometry x="-0.7692" y="-11" relative="1" as="geometry">
+            <mxPoint x="330" y="230" as="sourcePoint" />
+            <mxPoint x="530" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-10" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-11" value="Producto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-12" value="- precio: double&lt;div&gt;- stock: Int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-11">
+          <mxGeometry y="26" width="220" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-11">
+          <mxGeometry y="70" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-14" value="&lt;div&gt;+ producto(double p, Int s)&lt;/div&gt;+ getPrecio(): double&lt;div&gt;+ getStock(): Int&lt;/div&gt;&lt;div&gt;+ actualizarPrecio(double p): void&lt;/div&gt;&lt;div&gt;+ decrementarStock(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-11">
+          <mxGeometry y="78" width="220" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-19" value="ProductoDeCooperativa" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-20" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-19">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-19">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-22" value="+ getPrecio(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="rpr4Wdd4cPPBH_sCAn0Q-19">
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rpr4Wdd4cPPBH_sCAn0Q-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.495;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpr4Wdd4cPPBH_sCAn0Q-19" target="rpr4Wdd4cPPBH_sCAn0Q-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="sourcePoint" />
+            <mxPoint x="620" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
