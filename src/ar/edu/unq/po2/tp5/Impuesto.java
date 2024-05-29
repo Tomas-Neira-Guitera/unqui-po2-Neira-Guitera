@@ -1,4 +1,4 @@
-package ar.edu.uqn.po2.tp5;
+package ar.edu.unq.po2.tp5;
 
 public class Impuesto implements Pagable, Factura{
 
